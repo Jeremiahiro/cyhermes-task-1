@@ -58,6 +58,7 @@
       padding: 35px 45px 35px 65px;
       font-size: 16px;
       position: relative;
+      margin-top: 80px;
       p {
         z-index: 1;
       }

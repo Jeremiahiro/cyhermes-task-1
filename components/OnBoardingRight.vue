@@ -2,19 +2,19 @@
     <div class="onboarding-right">
       <b-row>
         <b-col md="8">
-          <p class="m-0 p-0 text-uppercase font-weight-bold text-gray">Hey, Terry</p>
-          <h4 class="font-weight-bold">Start your <i class="text-orange">30 days</i> Trial</h4>
+          <p class="m-0 p-0 text-uppercase font-weight-bold text-gray f-12">Hey, Terry</p>
+          <h5 class="font-weight-bold">Start your <i class="text-orange">30 days</i> Trial</h5>
           <span class="text-gray f-12">
             Select your preferred packgage below
           </span>
         </b-col>
         <b-col md="4">
-          <p class="m-0 p-0 text-uppercase text-blue"><b>NGN</b></p>
-          <h4 class="m-0 p-0 text-blue"><b>1,999,999</b></h4>
-          <p class="m-0 p-0 text-gray"><b>Total</b> <span class="text-uppercase f-12">(excludes vat)</span></p>
+          <p class="m-0 p-0 text-uppercase text-blue f-14"><b>NGN</b></p>
+          <h5 class="m-0 p-0 text-blue"><b>1,999,999</b></h5>
+          <p class="m-0 p-0 text-gray f-14"><b>Total</b> <span class="text-uppercase f-12">(excludes vat)</span></p>
         </b-col>
       </b-row>
-      <b-row class="mt-5">
+      <b-row class="mt-3">
         <b-col align-self="end">
           <b-card
               class="start-card"
@@ -22,7 +22,7 @@
             >
               <b-card-text>
                 <div>
-                  <p class="m-0 p-0 text-orange f-12">Starts From</p>
+                  <p class="m-0 p-0 text-orange f-12 font-weight-bold">Starts From</p>
                   <p class="m-0 p-0 text-gray f-12 text-uppercase">NGN</p>
                   <h5 class="m-0 p-0"><b>5,999,999.99</b></h5>
                   <p class="m-0 p-0 text-muted f-12">per annum</p>
@@ -41,8 +41,8 @@
                 <b-img src="~/assets/check.svg" fluid alt="icon"></b-img>
               </span>
               <div>
-                <h4 class="text-blue"><b>Basic</b></h4>
-                <p class="m-0 p-0 text-gray">
+                <h5 class="text-blue"><b>Basic</b></h5>
+                <p class="m-0 p-0 text-gray f-14">
                   <b>30 days trials</b> on our premium app features and features
                 </p>
               </div>
@@ -50,7 +50,7 @@
                 <h6 class="text-uppercase text-gray">Includes
                   <span class="text-blue">- - - - - - - - - - - - -</span>
                 </h6>
-                <div class="text-gray ">
+                <div class="text-gray f-14">
                   <p class="m-0 p-0">- 25 Users</p>
                   <p class="m-0 p-0">- All modules &amp; features</p>
                   <p class="m-0 p-0">- Unlimited commitees</p>
@@ -63,7 +63,7 @@
       </b-row>
       <div class="mt-3 text-gray f-14">
         <h5 class="m-0 p-0">Add more users</h5>
-        <p class="m-0 p-0"><b>NGN 99,999</b> per user</p>
+        <p class="m-0 p-0 f-14"><b>NGN 99,999</b> per user</p>
       </div>
       <div class="my-3">
         <div class="d-flex justify-content-between">
@@ -81,7 +81,7 @@
           <b-col
             v-for="(item, i) in modules"
             :key="i"
-            class="p-3 mb-2 f-14 text-gray module-item"
+            class="py-3 my-1 f-14 text-gray module-item"
             :class="{active: i === 0 }"
           >
             <b-row>
